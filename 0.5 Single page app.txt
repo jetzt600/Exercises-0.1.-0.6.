@@ -1,0 +1,36 @@
+title 0.5: Single page app
+
+browser->server: https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML
+note over browser:
+Request Method: GET
+end note over
+
+browser->server: https://studies.cs.helsinki.fi/exampleapp/main.css
+server-->browser: CSS
+note over browser:
+Request Method: GET
+end note over
+
+browser->server: https://studies.cs.helsinki.fi/exampleapp/spa.js
+server-->browser: JS
+note over browser:
+Request Method: GET
+end note over
+
+note over browser:
+browser starts executing js-code
+that requests JSON data from server 
+end note
+
+browser->server: https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: JSON
+note over browser:
+Request Method: GET
+end note over
+
+browser->server: https://studies.cs.helsinki.fi/favicon.ico
+server-->browser: ICO
+note over browser:
+Request Method: GET
+end note over

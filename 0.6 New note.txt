@@ -1,0 +1,10 @@
+title 0.6: New note
+
+browser->server: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: JSON
+server-->browser:[{"content":"Viva La Vida","date":"2020-10-21T05:06:31.475Z"}, ...]
+
+note over browser:
+Request Method: POST
+content-type: application/json
+end note over
